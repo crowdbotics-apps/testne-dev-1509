@@ -41,3 +41,4 @@ class Ttest(models.Model):
 class Test(models.Model):
     "Generated Model"
     test = models.BigIntegerField()
+    tests = models.BigIntegerField(null=True, blank=True,)
